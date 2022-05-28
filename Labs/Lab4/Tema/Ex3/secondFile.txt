@@ -1,0 +1,10 @@
+
+Note:
+	Date: 1.1.2000
+	Hour: 00:25
+
+	Content: 
+		Title: Teoria Teoriei
+		Author: Ohriniuc Claudiu
+		Description: Intrebati autorul
+		DeadLine: 11.9.2023
