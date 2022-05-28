@@ -1,0 +1,28 @@
+1. ce este un model de proiectare? cum a aparut termenul? cum a evoluat conceptul
+2. explicati modelele Riehle şi Zullighoven?
+3. unde sunt utile modelele de proiectare?
+4. care sunt elementele unui model?
+5. ce este o arhitectura inchisa? ce este o arhitectura deschisa?
+6. ce sunt modelele creationale?
+7. explicati fabrica de obiecte? cand se utilizeaza fabrica de obiecte?
+8. explicati fabrica de fabrici de obiecte? cand se utilizeaza fabrica de fabrici de obiecte?
+9. ce este singleton - unde se utilizeaza?
+10. explicati modelul constructor; cand se utilizeaza modelul constructor?
+11. explicati modelul prototip; cand se utilizeaza modelul prototip?
+12. ce sunt modelele structurale?
+13. explicati modelul adaptor; cand se utilizeaza modelul adaptor?
+14. explicati modelul pod; cand se utilizeaza modelul pod?
+15. explicati modelul compus; cand se utilizeaza modelul compus?
+16. explicati modelul fatada; cand se utilizeaza modelul fatada?
+17. explicati modelul; cand se utilizeaza modelul?
+18. ce sunt modelele comportamentale?
+19. explicati modelul lant de responsabilitati; cand se utilizeaza modelul lant de responsabilitati?
+20. explicati modelul observator; cand se utilizeaza modelul observator?
+21. explicati modelul automatului finit; cand se utilizeaza modelul automatului finit?
+22. explicati modelul vizitator; cand se utilizeaza modelul vizitator?
+23. explicati modelul comanda; cand se utilizeaza modelul comanda?
+24. explicati modelul restaurare; cand se utilizeaza modelul restaurare?
+25. explicati modelul intermediarului; cand se utilizeaza modelul intermediarului?
+26. explicati modelul iterator; cand se utilizeaza modelul iterator?
+27. explicati modelul strategie; cand se utilizeaza modelul strategie?
+28. explicati modelul mediator; cand se utilizeaza modelul mediator?
