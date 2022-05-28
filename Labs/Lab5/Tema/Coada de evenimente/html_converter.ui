@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HTMLConverter</class>
+ <widget class="QWidget" name="HTMLConverter">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1053</width>
+    <height>619</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>HTML Converter</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QPushButton" name="browse_btn">
+     <property name="text">
+      <string>Browse</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLineEdit" name="path_line_edit">
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="placeholderText">
+      <string>/path/to/a/text/file</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QPushButton" name="ViewHTML">
+     <property name="text">
+      <string>Make and View HTML</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Minimum</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="4" column="0">
+    <widget class="QPushButton" name="pushButton_1">
+     <property name="text">
+      <string>View_TXT</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QTextBrowser" name="ViewTXT_edit"/>
+   </item>
+   <item row="6" column="0">
+    <widget class="QPushButton" name="CCODE">
+     <property name="text">
+      <string>Compile</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
