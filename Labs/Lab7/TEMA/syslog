@@ -1,0 +1,217 @@
+Apr  6 00:00:10 gcipry3 rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="906" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Apr  6 00:00:10 gcipry3 systemd[1]: logrotate.service: Succeeded.
+Apr  6 00:00:10 gcipry3 systemd[1]: Finished Rotate log files.
+Apr  6 00:00:10 gcipry3 kernel: [10753.035061] audit: type=1400 audit(1649192410.309:50): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=9238 comm="cups-browsed" capability=23  capname="sys_nice"
+Apr  6 00:00:10 gcipry3 systemd[1]: man-db.service: Succeeded.
+Apr  6 00:00:10 gcipry3 systemd[1]: Finished Daily man-db regeneration.
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2757] dhcp4 (wlp45s0): option dhcp_lease_time      => '7200'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2757] dhcp4 (wlp45s0): option domain_name_servers  => '81.180.223.1 81.180.222.254'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2758] dhcp4 (wlp45s0): option expiry               => '1649199664'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2758] dhcp4 (wlp45s0): option interface_mtu        => '576'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2758] dhcp4 (wlp45s0): option ip_address           => '192.168.0.114'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2758] dhcp4 (wlp45s0): option requested_broadcast_address => '1'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2758] dhcp4 (wlp45s0): option requested_domain_name => '1'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2758] dhcp4 (wlp45s0): option requested_domain_name_servers => '1'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2758] dhcp4 (wlp45s0): option requested_domain_search => '1'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2758] dhcp4 (wlp45s0): option requested_host_name  => '1'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2758] dhcp4 (wlp45s0): option requested_interface_mtu => '1'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2759] dhcp4 (wlp45s0): option requested_ms_classless_static_routes => '1'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2759] dhcp4 (wlp45s0): option requested_nis_domain => '1'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2759] dhcp4 (wlp45s0): option requested_nis_servers => '1'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2759] dhcp4 (wlp45s0): option requested_ntp_servers => '1'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2759] dhcp4 (wlp45s0): option requested_rfc3442_classless_static_routes => '1'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2759] dhcp4 (wlp45s0): option requested_root_path  => '1'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2759] dhcp4 (wlp45s0): option requested_routers    => '1'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2759] dhcp4 (wlp45s0): option requested_static_routes => '1'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2759] dhcp4 (wlp45s0): option requested_subnet_mask => '1'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2760] dhcp4 (wlp45s0): option requested_time_offset => '1'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2760] dhcp4 (wlp45s0): option requested_wpad       => '1'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2760] dhcp4 (wlp45s0): option routers              => '192.168.0.1'
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2760] dhcp4 (wlp45s0): option subnet_mask          => '255.255.255.0'
+Apr  6 00:01:04 gcipry3 dbus-daemon[884]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=887 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr  6 00:01:04 gcipry3 NetworkManager[887]: <info>  [1649192464.2760] dhcp4 (wlp45s0): state changed extended -> extended
+Apr  6 00:01:04 gcipry3 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr  6 00:01:04 gcipry3 dbus-daemon[884]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr  6 00:01:04 gcipry3 systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr  6 00:01:13 gcipry3 wpa_supplicant[923]: wlp45s0: CTRL-EVENT-BEACON-LOSS 
+Apr  6 00:01:14 gcipry3 wpa_supplicant[923]: wlp45s0: CTRL-EVENT-BEACON-LOSS 
+Apr  6 00:01:14 gcipry3 systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Apr  6 00:01:15 gcipry3 wpa_supplicant[923]: wlp45s0: CTRL-EVENT-BEACON-LOSS 
+Apr  6 00:01:35 gcipry3 wpa_supplicant[923]: message repeated 3 times: [ wlp45s0: CTRL-EVENT-BEACON-LOSS ]
+Apr  6 00:05:13 gcipry3 upowerd[1125]: energy 89,878620 bigger than full 88,911160
+Apr  6 00:13:04 gcipry3 gnome-shell[3231]: [0406/001304.438917:ERROR:file_io_posix.cc(152)] open /home/gcipry3/.config/BraveSoftware/Brave-Browser/Crash Reports/pending/4a0eec10-2e27-4634-a432-89dc1b169eab.lock: File exists (17)
+Apr  6 00:13:04 gcipry3 gnome-shell[3231]: [0406/001304.438966:ERROR:file_io_posix.cc(152)] open /home/gcipry3/.config/BraveSoftware/Brave-Browser/Crash Reports/pending/9a92b9f0-fb22-4519-a2a7-f4952e7b24c6.lock: File exists (17)
+Apr  6 00:17:01 gcipry3 CRON[9455]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  6 00:27:31 gcipry3 NetworkManager[887]: <info>  [1649194051.3043] manager: NetworkManager state is now CONNECTED_SITE
+Apr  6 00:27:31 gcipry3 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr  6 00:27:31 gcipry3 dbus-daemon[884]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=887 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr  6 00:27:31 gcipry3 whoopsie[1876]: [00:27:31] offline
+Apr  6 00:27:31 gcipry3 dbus-daemon[884]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr  6 00:27:31 gcipry3 systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr  6 00:27:31 gcipry3 NetworkManager[887]: <info>  [1649194051.5894] manager: NetworkManager state is now CONNECTED_GLOBAL
+Apr  6 00:27:31 gcipry3 whoopsie[1876]: [00:27:31] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Apr  6 00:27:31 gcipry3 whoopsie[1876]: [00:27:31] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Apr  6 00:27:31 gcipry3 whoopsie[1876]: [00:27:31] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Apr  6 00:27:33 gcipry3 whoopsie[1876]: [00:27:33] online
+Apr  6 00:27:42 gcipry3 systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Apr  6 00:27:57 gcipry3 systemd[1129]: gnome-launched-brave-browser.desktop-3223.scope: Succeeded.
+Apr  6 00:27:58 gcipry3 systemd[1129]: vte-spawn-cd83f38f-d948-4ca0-ba2d-b61fc1c94b4c.scope: Succeeded.
+Apr  6 00:27:58 gcipry3 systemd[1129]: gnome-terminal-server.service: Succeeded.
+Apr  6 00:28:00 gcipry3 gnome-shell[1510]: ../clutter/clutter/clutter-actor.c:10558: The clutter_actor_set_allocation() function can only be called from within the implementation of the ClutterActor::allocate() virtual function.
+Apr  6 00:28:03 gcipry3 dbus-daemon[884]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.45' (uid=1000 pid=1510 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr  6 00:28:03 gcipry3 systemd[1]: Starting PackageKit Daemon...
+Apr  6 00:28:03 gcipry3 PackageKit: daemon start
+Apr  6 00:28:03 gcipry3 dbus-daemon[884]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Apr  6 00:28:03 gcipry3 systemd[1]: Started PackageKit Daemon.
+Apr  6 00:28:03 gcipry3 gnome-shell[1510]: endSessionDialog: No XDG_SESSION_ID, fetched from logind: 1
+Apr  6 00:28:04 gcipry3 wpa_supplicant[923]: wlp45s0: CTRL-EVENT-BEACON-LOSS 
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME Maintenance of expirable data.
+Apr  6 00:28:04 gcipry3 kernel: [12427.636965] rfkill: input handler enabled
+Apr  6 00:28:04 gcipry3 systemd[1129]: gsd-rfkill.service: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1129]: gsd-screensaver-proxy.service: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1129]: gsd-sharing.service: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1129]: gsd-smartcard.service: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1129]: gsd-wacom.service: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped GNOME Wacom handling.
+Apr  6 00:28:04 gcipry3 systemd[1129]: gsd-usb-protection.service: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped GNOME USB protection handling.
+Apr  6 00:28:04 gcipry3 systemd[1]: unattended-upgrades.service: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1129]: gsd-wwan.service: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1129]: gsd-power.service: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1129]: gsd-print-notifications.service: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1129]: gsd-datetime.service: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped GNOME Date & Time handling.
+Apr  6 00:28:04 gcipry3 systemd[1129]: gsd-a11y-settings.service: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1129]: gsd-keyboard.service: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped GNOME Keyboard handling.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME Accessibility settings.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME Color management.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME Date & Time handling.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME Keyboard handling.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME Media keys handling.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME Power management handling.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME Printer notifications.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME RFKill handling.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME Freedesktop screensaver handling.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME Sharing handling.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME Smartcard handling.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME Sound sample caching handling.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME USB protection handling.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME Wacom handling.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME WWan management.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME XSettings.
+Apr  6 00:28:04 gcipry3 systemd[1129]: gsd-media-keys.service: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped GNOME Media keys handling.
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopping Session 1 of user gcipry3.
+Apr  6 00:28:04 gcipry3 systemd[1]: Removed slice system-getty.slice.
+Apr  6 00:28:04 gcipry3 systemd[1]: Removed slice system-modprobe.slice.
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopped target Bluetooth.
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopped target Graphical Interface.
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopped target Multi-User System.
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopped target Login Prompts.
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopped target Sound Card.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME X11 Session (session: ubuntu).
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME Session.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME session X11 services.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME X11 Session.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target GNOME Session (session: ubuntu).
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopped target Timers.
+Apr  6 00:28:04 gcipry3 systemd[1]: anacron.timer: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopped Trigger anacron every hour.
+Apr  6 00:28:04 gcipry3 systemd[1]: apt-daily-upgrade.timer: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopped Daily apt upgrade and clean activities.
+Apr  6 00:28:04 gcipry3 systemd[1]: apt-daily.timer: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopped Daily apt download activities.
+Apr  6 00:28:04 gcipry3 systemd[1129]: Stopped target Current graphical user session.
+Apr  6 00:28:04 gcipry3 systemd[1129]: unicast-local-avahi.path: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1]: e2scrub_all.timer: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopped Periodic ext4 Online Metadata Check for All Filesystems.
+Apr  6 00:28:04 gcipry3 systemd[1]: fstrim.timer: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopped Discard unused blocks once a week.
+Apr  6 00:28:04 gcipry3 systemd[1]: fwupd-refresh.timer: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopped Refresh fwupd metadata regularly.
+Apr  6 00:28:04 gcipry3 systemd[1]: logrotate.timer: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopped Daily rotation of log files.
+Apr  6 00:28:04 gcipry3 systemd[1]: man-db.timer: Succeeded.
+Apr  6 00:28:04 gcipry3 ModemManager[989]: <info>  caught signal, shutting down...
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopped Daily man-db regeneration.
+Apr  6 00:28:04 gcipry3 systemd[1]: motd-news.timer: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopped Message of the Day.
+Apr  6 00:28:04 gcipry3 systemd[1]: systemd-tmpfiles-clean.timer: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Apr  6 00:28:04 gcipry3 systemd[1]: ua-timer.timer: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopped Ubuntu Advantage Timer for running repeated jobs.
+Apr  6 00:28:04 gcipry3 systemd[1]: systemd-rfkill.socket: Succeeded.
+Apr  6 00:28:04 gcipry3 systemd[1]: Closed Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopping Modem Manager...
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopping Accounts Service...
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopping ACPI event daemon...
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopping Save/Restore Sound Card State...
+Apr  6 00:28:04 gcipry3 NetworkManager[887]: <info>  [1649194084.9233] modem-manager: ModemManager no longer available
+Apr  6 00:28:04 gcipry3 ModemManager[989]: <info>  ModemManager is shut down
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopping LSB: automatic crash report generation...
+Apr  6 00:28:04 gcipry3 bluetoothd[879]: Terminating
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopping Bluetooth service...
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopping Thunderbolt system service...
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopping Manage, Install and Generate Color Profiles...
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopping Regular background program processing daemon...
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopping Make remote CUPS printers available locally...
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopping GNOME Display Manager...
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopping irqbalance daemon...
+Apr  6 00:28:04 gcipry3 gnome-shell[1510]: gnome-shell: Fatal IO error 0 (Success) on X server :0.
+Apr  6 00:28:04 gcipry3 systemd[1]: Stopping Tool to automatically collect and submit kernel crash signatures...
+Apr  6 19:49:31 gcipry3 systemd-modules-load[381]: Inserted module 'lp'
+Apr  6 19:49:31 gcipry3 systemd-modules-load[381]: Inserted module 'ppdev'
+Apr  6 19:49:31 gcipry3 systemd-modules-load[381]: Inserted module 'parport_pc'
+Apr  6 19:49:31 gcipry3 systemd-modules-load[381]: Inserted module 'msr'
+Apr  6 19:49:31 gcipry3 systemd-modules-load[381]: Inserted module 'ipmi_devintf'
+Apr  6 19:49:31 gcipry3 systemd-sysctl[407]: Not setting net/ipv4/conf/all/promote_secondaries (explicit setting exists).
+Apr  6 19:49:31 gcipry3 systemd-sysctl[407]: Not setting net/ipv4/conf/default/promote_secondaries (explicit setting exists).
+Apr  6 19:49:31 gcipry3 systemd[1]: Starting Flush Journal to Persistent Storage...
+Apr  6 19:49:31 gcipry3 systemd[1]: Finished udev Coldplug all Devices.
+Apr  6 19:49:31 gcipry3 systemd[1]: Started udev Kernel Device Manager.
+Apr  6 19:49:31 gcipry3 systemd[1]: Starting Show Plymouth Boot Screen...
+Apr  6 19:49:31 gcipry3 systemd[1]: Received SIGRTMIN+20 from PID 437 (plymouthd).
+Apr  6 19:49:31 gcipry3 systemd[1]: Mounted Mount unit for bare, revision 5.
+Apr  6 19:49:31 gcipry3 systemd[1]: Started Show Plymouth Boot Screen.
+Apr  6 19:49:31 gcipry3 systemd[1]: Condition check resulted in Dispatch Password Requests to Console Directory Watch being skipped.
+Apr  6 19:49:31 gcipry3 systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Apr  6 19:49:31 gcipry3 systemd[1]: Reached target Local Encrypted Volumes.
+Apr  6 19:49:31 gcipry3 systemd[1]: Finished Flush Journal to Persistent Storage.
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] Linux version 5.13.0-39-generic (buildd@lcy02-amd64-080) (gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022 (Ubuntu 5.13.0-39.44~20.04.1-generic 5.13.19)
+Apr  6 19:49:31 gcipry3 systemd[1]: Mounted Mount unit for core20, revision 1328.
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.13.0-39-generic root=UUID=f96e33f5-4840-4a24-87ac-1ac96f6479e5 ro quiet splash vt.handoff=7
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] KERNEL supported cpus:
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000]   Intel GenuineIntel
+Apr  6 19:49:31 gcipry3 systemd[1]: Mounted Mount unit for gtk-common-themes, revision 1519.
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000]   AMD AuthenticAMD
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000]   Hygon HygonGenuine
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000]   Centaur CentaurHauls
+Apr  6 19:49:31 gcipry3 systemd[1]: Mounted Mount unit for snapd, revision 15177.
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000]   zhaoxin   Shanghai  
+Apr  6 19:49:31 gcipry3 systemd[1]: Mounted Mount unit for gnome-3-38-2004, revision 99.
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] x86/split lock detection: #AC: crashing the kernel on kernel split_locks and warning on user-space split_locks
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Apr  6 19:49:31 gcipry3 systemd[1]: Mounted Mount unit for snap-store, revision 558.
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x020: 'AVX-512 opmask'
+Apr  6 19:49:31 gcipry3 systemd[1]: Mounted Mount unit for snapd, revision 15314.
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x040: 'AVX-512 Hi256'
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x080: 'AVX-512 ZMM_Hi256'
+Apr  6 19:49:31 gcipry3 systemd[1]: Condition check resulted in Dispatch Password Requests to Console Directory Watch being skipped.
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x200: 'Protection Keys User registers'
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] x86/fpu: xstate_offset[5]:  832, xstate_sizes[5]:   64
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] x86/fpu: xstate_offset[6]:  896, xstate_sizes[6]:  512
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] x86/fpu: xstate_offset[7]: 1408, xstate_sizes[7]: 1024
+Apr  6 19:49:31 gcipry3 systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+Apr  6 19:49:31 gcipry3 systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] x86/fpu: xstate_offset[9]: 2432, xstate_sizes[9]:    8
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] x86/fpu: Enabled xstate features 0x2e7, context size is 2440 bytes, using 'compacted' format.
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] BIOS-provided physical RAM map:
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009efff] usable
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] BIOS-e820: [mem 0x000000000009f000-0x00000000000fffff] reserved
+Apr  6 19:49:31 gcipry3 systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x0000000064245fff] usable
+Apr  6 19:49:31 gcipry3 kernel: [    0.000000] BIOS-e820: [mem 0x0000000064246000-0x0000000067345fff] reserved
